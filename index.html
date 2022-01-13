@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário YouX</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <meta name="og:locale" content="pt-BR" />
+    <meta name="og:site_name" content="Clínica YouX - Formulário do Paciente" />
+    <meta name="og:url" content="https://youxgroup.com.br/" />
+    <meta name="og:type" content="website" />
+    <meta name="description" content="A clínica YouX é uma empresa brasileira com foco principal em pessoas, inovação e sustentabilidade, buscando sempre oferecer o que tem de melhor aos nossos pacientes" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>Formulário do paciente</h1>
+            <p> “Não é o diploma médico, mas a qualidade humana, o decisivo” (Carl Jung).</p>
+        </header>
+
+        <form class="formulario">
+
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" class="nome" placeholder="Entre com o seu nome" required>
+            </div>
+
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="cpf" placeholder="Entre com o seu CPF" required>  
+            </div>
+
+            <div>
+                <label for="dataDeNascimento">Data de nascimento</label>
+                <input type="date" name="dataDeNascimento" id="dataDeNascimento" class="dataDeNascimento">
+            </div>
+
+            <div>
+                <label for="peso">Peso<span>(em kg)</span></label>
+                <input type="text" name="peso" id="peso" class="peso">
+            </div>
+
+            <div>
+                <label for="altura">Altura<span>(em metros)</span></label>
+                <input type="text" name="altura" id="altura" class="altura">
+            </div>
+
+            <div>
+                <p>UF</p>
+                <select name="role" id="uf" class="uf">
+                    <option desable selected value>Selecione o seu estado</option>
+                    <option value="Acre">AC</option>
+                    <option value="Alagoas">AL</option>
+                    <option value="Amapa">AP</option>
+                    <option value="Amazonas">AM</option>
+                    <option value="Bahia">BA</option>
+                    <option value="Ceara">CE</option>
+                    <option value="Espirito Santo">ES</option>
+                    <option value="Goias">GO</option>
+                    <option value="Maranhao">MA</option>
+                    <option value="Mato Grosso">MT</option>
+                    <option value="Mato Grosso do Sul">MS</option>
+                    <option value="Minas Gerais">MG</option>
+                    <option value="Para">PA</option>
+                    <option value="Paraiba">PB</option>
+                    <option value="Parana">PR</option>
+                    <option value="Pernambuco">PE</option>
+                    <option value="Piaui">PI</option>
+                    <option value="Rio de Janeiro">RJ</option>
+                    <option value="Rio Grande do Norte">RN</option>
+                    <option value="Rio Grande do Sul">RS</option>
+                    <option value="Roraima">RO</option>
+                    <option value="Santa Catarina">SC</option>
+                    <option value="Sao Paulo">SP</option>
+                    <option value="Sergipe">SE</option>
+                    <option value="Tocantins">TO</option>
+                    <option value="Distrito Federal">DF</option>
+                </select>
+            </div>
+
+            <div>
+                <button>Enviar</button>
+            </div>
+
+        </form>
+
+        <div class="resultado"></div>
+
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
