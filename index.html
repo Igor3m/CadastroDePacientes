@@ -13,7 +13,6 @@
     <meta name="og:url" content="https://youxgroup.com.br/" />
     <meta name="og:type" content="website" />
     <meta name="description" content="A clínica YouX é uma empresa brasileira com foco principal em pessoas, inovação e sustentabilidade, buscando sempre oferecer o que tem de melhor aos nossos pacientes" />
-
 </head>
 
 <body>
@@ -21,39 +20,39 @@
 
         <header class="header">
             <h1>Formulário do paciente</h1>
-            <p> “Não é o diploma médico, mas a qualidade humana, o decisivo” (Carl Jung).</p>
+            <p class="description"> “Não é o diploma médico, mas a qualidade humana, o decisivo” (Carl Jung).</p>
         </header>
 
         <form class="formulario">
 
             <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" class="nome" placeholder="Entre com o seu nome" required>
+                <label for="nome" class="label">Nome</label>
+                <input type="text" name="nome" id="nome" class="form-input" placeholder="Entre com o seu nome" required>
             </div>
 
             <div>
-                <label for="cpf">CPF</label>
-                <input type="text" name="cpf" id="cpf" class="cpf" placeholder="Entre com o seu CPF" required>  
+                <label for="cpf" class="label">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="form-input" placeholder="Entre com o seu CPF" required>  
             </div>
 
             <div>
-                <label for="dataDeNascimento">Data de nascimento</label>
-                <input type="date" name="dataDeNascimento" id="dataDeNascimento" class="dataDeNascimento">
+                <label for="dataDeNascimento" class="label">Data de nascimento</label>
+                <input type="date" name="dataDeNascimento" id="dataDeNascimento" class="form-input">
             </div>
 
             <div>
-                <label for="peso">Peso<span>(em kg)</span></label>
-                <input type="text" name="peso" id="peso" class="peso">
+                <label for="peso" class="label">Peso<span>(em kg)</span></label>
+                <input type="text" name="peso" id="peso" class="form-input" placeholder="Informe o seu peso">
             </div>
 
             <div>
-                <label for="altura">Altura<span>(em metros)</span></label>
-                <input type="text" name="altura" id="altura" class="altura">
+                <label for="altura" class="label">Altura<span>(em metros)</span></label>
+                <input type="text" name="altura" id="altura" class="form-input" placeholder="Informe a sua altura">
             </div>
 
             <div>
-                <p>UF</p>
-                <select name="role" id="uf" class="uf">
+                <label for="uf" class="label">UF</label>
+                <select name="role" id="uf" class="form-input">
                     <option desable selected value>Selecione o seu estado</option>
                     <option value="Acre">AC</option>
                     <option value="Alagoas">AL</option>
@@ -85,7 +84,7 @@
             </div>
 
             <div>
-                <button>Enviar</button>
+                <button class="button">Enviar</button>
             </div>
 
         </form>

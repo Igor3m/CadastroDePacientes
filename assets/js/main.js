@@ -4,12 +4,12 @@ function meuFormulario(){
 
     form.onsubmit = function(evento){
         evento.preventDefault();
-        const nome = evento.target.querySelector('.nome');
-        const cpf = evento.target.querySelector('.cpf');
-        const data = evento.target.querySelector('.dataDeNascimento');
-        const peso = evento.target.querySelector('.peso');
-        const altura = evento.target.querySelector('.altura');
-        const uf = evento.target.querySelector('.uf');
+        const nome = evento.target.querySelector('#nome');
+        const cpf = evento.target.querySelector('#cpf');
+        const data = evento.target.querySelector('#dataDeNascimento');
+        const peso = evento.target.querySelector('#peso');
+        const altura = evento.target.querySelector('#altura');
+        const uf = evento.target.querySelector('#uf');
         console.log(nome.value, cpf.value, data.value, peso.value, altura.value, uf.value);
 
         resultado.innerHTML = ` `;
