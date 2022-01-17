@@ -145,6 +145,16 @@ form {
     background: #18BE92;
 }
 
+.rodape {
+    width: 100%;
+    background-color: #363A3D;
+    color: #1C9B7A;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 
   
 
